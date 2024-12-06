@@ -49,13 +49,70 @@
 
 
 // 6
-let word = "Привеhь";
+// let word = "Привеhь";
 
-let lastSymbol = word[word.length - 1];
+// let lastSymbol = word[word.length - 1];
 
-if (lastSymbol == 'ь') {
-  lastSymbol = word[word.length - 2];
-  console.log(lastSymbol);
+// if (lastSymbol == 'ь') {
+//   lastSymbol = word[word.length - 2];
+//   console.log(lastSymbol);
+// } else {
+//   console.log(lastSymbol);
+// }
+
+
+
+
+
+
+
+// Уровень 1.2 задачника JavaScript
+// 1
+
+// let num = 123;
+
+// let res = +num.toString()[0];
+// console.log(res)
+
+
+// 2
+// let num = 1234;
+
+// let res = +num.toString()[num.toString().length - 1];
+// console.log(res);
+
+
+// 3
+// let num = 1234;
+
+// let first = +num.toString()[0];
+// let last = +num.toString()[num.toString().length - 1];
+// let res = first + last;
+
+// console.log(res);
+
+
+// 4
+// let num = 1234;
+// let count = 0;
+
+// while (num > 0) {
+//   num = Math.floor(num / 10);
+//   count++;
+// }
+
+// console.log(count);
+
+
+// 5
+let num1 = 1234;
+let num2 = 1234;
+
+let fisrt =  +num1.toString()[0];
+let second = +num2.toString()[0];
+
+if (fisrt === second) {
+  console.log('Совпадает');
 } else {
-  console.log(lastSymbol);
+  console.log('Не совпадают');
 }
