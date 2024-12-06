@@ -105,14 +105,39 @@
 
 
 // 5
-let num1 = 1234;
-let num2 = 1234;
+// let num1 = 1234;
+// let num2 = 1234;
 
-let fisrt =  +num1.toString()[0];
-let second = +num2.toString()[0];
+// let fisrt =  +num1.toString()[0];
+// let second = +num2.toString()[0];
 
-if (fisrt === second) {
-  console.log('Совпадает');
-} else {
-  console.log('Не совпадают');
-}
+// if (fisrt === second) {
+//   console.log('Совпадает');
+// } else {
+//   console.log('Не совпадают');
+// }
+
+
+// Уровень 1.3
+// 1
+// let str = '';
+
+// if (str.length === 0) {
+//   console.log('Строка пустая');
+// } else if (str.length === 1) {
+//   console.log(str);
+// } else {
+//   console.log(str[str.length - 2]);
+// }
+
+
+// 2
+// let num1 = 31;
+// let num2 = 10;
+// let res = num1 % num2;
+
+// console.log(`Остаток: ${res}`);
+
+// if (res === 0) {
+//   console.log('Делится без остатка');
+// } 

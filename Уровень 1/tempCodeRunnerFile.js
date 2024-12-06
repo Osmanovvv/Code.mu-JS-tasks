@@ -1,9 +1,9 @@
-let num = 1234;
-let count = 0;
+let num1 = 31;
+let num2 = 10;
+let res = num1 % num2;
 
-while (num > 0) {
-  num = Math.floor(num / 10);
-  count++;
-}
+console.log(`Остаток: ${res}`);
 
-console.log(count);
+if (res === 0) {
+  console.log('Делится без остатка');
+} 
