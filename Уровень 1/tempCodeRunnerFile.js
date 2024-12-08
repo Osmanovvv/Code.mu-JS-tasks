@@ -1,5 +1,5 @@
-for (let i = 0; i <= 100; i += 3) {
-  if (i % 3 === 0) {
-    console.log(i);
-  }
-}
+let str = 'Селям';
+
+for (let i = str[0]; i <= str.length - 1; i++) {
+  console.log(str[i]);
+}  
