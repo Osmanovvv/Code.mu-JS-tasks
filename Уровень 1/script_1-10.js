@@ -250,12 +250,65 @@
 
 // №4 Дан массив с числами. Найдите сумму тех элементов этого массива, которые больше нуля и меньше десяти.
 
-let nums = [-1, 2, -3, 4, -5, 6, -7, 8, 91];
-let sum = 0;
+// let nums = [-1, 2, -3, 4, -5, 6, -7, 8, 91];
+// let sum = 0;
 
-for (let i = 0; i < nums.length; i++) {
-  if (nums[i] > 0 && nums[i] < 10) {
-    sum += nums[i]
-  }
+// for (let i = 0; i < nums.length; i++) {
+//   if (nums[i] > 0 && nums[i] < 10) {
+//     sum += nums[i]
+//   }
+// }
+// console.log(sum);
+
+
+// Уровень 1.7
+// 1
+// let str = 'abcde';
+// let res = str.split("");
+// console.log(res);
+
+// 2
+// let num = 12345;
+// let res = String(num).split("").map(Number);
+// console.log(res);
+
+// 3
+// let num = 12345;
+// let res = Number(String(num).split("").reverse().join(""));
+// console.log(res);
+
+// 4
+// let num = 12345;
+// let res = String(num).split("").reduce((sum, digit) => sum + Number(digit), 0);
+// console.log(res);
+
+
+
+// Уровень 1.8
+// 1 Заполните массив целыми числами от 1 до 10.
+// let arr = [];
+
+// for (let i = 1; i <= 10; i++) {
+//   arr.push(i);
+// }
+// console.log(arr);
+
+
+// 2 Заполните массив четными числами из промежутка от 1 до 100.
+// let arr = [];
+
+// for (let i = 2; i <= 100; i += 2) {
+//   arr.push(i);
+// }
+
+// console.log(arr);
+
+
+// 3 Округлите эти дроби до одного знака в дробной части.
+let arr = [1.456, 2.125, 3.32, 4.1, 5.34];
+let newArr = [];
+
+for (let i = 0; i < arr.length; i++) {
+  newArr.push(Number(arr[i].toFixed(1)));
 }
-console.log(sum);
+console.log(newArr);
