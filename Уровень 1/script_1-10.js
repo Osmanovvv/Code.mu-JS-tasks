@@ -305,10 +305,60 @@
 
 
 // 3 Округлите эти дроби до одного знака в дробной части.
-let arr = [1.456, 2.125, 3.32, 4.1, 5.34];
-let newArr = [];
+// let arr = [1.456, 2.125, 3.32, 4.1, 5.34];
+// let newArr = [];
 
-for (let i = 0; i < arr.length; i++) {
-  newArr.push(Number(arr[i].toFixed(1)));
+// for (let i = 0; i < arr.length; i++) {
+//   newArr.push(Number(arr[i].toFixed(1)));
+// }
+// console.log(newArr);
+
+
+// Уровень 1.9
+// №1 Дан массив со строками. Оставьте в этом массиве только те строки, которые начинаются на http://.
+// let urls = [
+//   "http://example.com",
+//   "https://secure.com",
+//   "ftp://filetransfer.com",
+//   "http://mywebsite.com",
+//   "mailto:someone@example.com",
+//   "http://anotherexample.com",
+//   "https://notincluded.com"
+// ];
+
+// urls = urls.filter(url => url.startsWith("http://"));
+
+// console.log(urls);
+
+
+
+// №2 Дан массив со строками. Оставьте в этом массиве только те строки, которые заканчиваются на .html.
+
+// let urls = [
+//   "index.html",
+//   "about.html",
+//   "contact.php",
+//   "products.html",
+//   "style.css",
+//   "home.html",
+//   "script.js",
+//   "page.html",
+//   "readme.md"
+// ];
+
+// urls = urls.filter(url => url.endsWith(".html"));
+
+// console.log(urls);
+
+
+
+// 3 Дан массив с числами. Увеличьте каждое число из массива на 10 процентов.
+let nums = [1, 10, -5, 50, 43, -40, -27, 60];
+
+for (let i = 0; i < nums.length; i++) {
+  nums[i] += nums[i] * 10 / 100;
 }
-console.log(newArr);
+
+console.log(nums);
+
+
